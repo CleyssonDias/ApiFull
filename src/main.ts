@@ -5,6 +5,6 @@ const m = new UserContoller().handle()
 
 app.get('/', (req, res) => {
     res.json({message: m})
-})
+});
 
-app.listen(4444)
+app.listen(4444);
